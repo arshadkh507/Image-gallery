@@ -1,0 +1,18 @@
+----------------------------------------------------
+npx create-react-app image-gallery
+
+install dependencies 
+
+npm i -D tailwindcss postcss-cli autoprefixer
+
+postcss-cli: compile tailwind css , and allow us autoprefixer plugin.
+
+npx tailwind init tailwind.js --full
+Created Tailwind CSS config file: tailwind.js
+
+
+npm start
+----------------------------------------------------
+
+
+
