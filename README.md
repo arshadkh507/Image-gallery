@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Image Gallery Project with ReactJS, Pixabay API, and Tailwind CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Welcome to the **Image Gallery** project, a beautiful and responsive ReactJS application that leverages the Pixabay API to fetch and display stunning images. This project is built using Create React App, and it incorporates the power of Tailwind CSS for stylish and dynamic user interfaces.
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+- **Search Functionality**: Easily search for any image using the search bar. The application fetches relevant images from Pixabay API based on your input.
+- **Loading Indicator**: A sleek loading indicator ensures a smooth user experience while images are being fetched.
+- **Not Found Display**: If no images match the search query, a user-friendly message is displayed to inform users about the lack of results.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS
+- Tailwind CSS
+- Create React App
+- Hooks Used: `useEffect()`, `useState()`
+- Environment Variable: `.env` for Pixabay API key
+- npm for package management
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/image-gallery.git
+   cd image-gallery
+   ```
 
-### `npm run build`
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Set Up Environment Variable:**
+   Create a `.env` file in the root of your project and add your Pixabay API key:
+   ```
+   REACT_APP_PIXABAY_API_KEY=your-api-key-here
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Run the Application:**
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Open in Browser:**
+   Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-### `npm run eject`
+## Social Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Connect with me on social media:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [LinkedIn](https://www.linkedin.com/in/arshadkh507)
+- [GitHub](https://github.com/arshadkh507)
+- [Facebook](https://web.facebook.com/code.master.arshad)
+- WhatsApp: [+923435439569](https://wa.me/923435439569)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to reach out if you have any questions or suggestions!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
+- Special thanks to Pixabay for providing the amazing API that powers this image gallery.
+- Tailwind CSS for making styling a breeze in React applications.
+- Create React App for simplifying the React setup process.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🚀
