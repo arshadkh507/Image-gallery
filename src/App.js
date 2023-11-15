@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ImageCard from "./components/ImageCard";
 import ImageSearch from "./components/ImageSearch";
+import CopyrightElement from "./components/CopyrightElement";
 function App() {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +36,8 @@ function App() {
           ))}
         </div>
       )}
+
+      <CopyrightElement />
     </div>
   );
 }
