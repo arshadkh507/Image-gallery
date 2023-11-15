@@ -1,5 +1,5 @@
 const ImageCard = ({image}) => {
-   const {id, downloads ,webformatURL,likes , views, tags, user } = image
+   const {downloads ,webformatURL,likes , views, tags, user } = image
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg ">
       <img
