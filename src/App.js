@@ -30,10 +30,12 @@ function App() {
       {isLoading ? (
         <h1 className="text-6xl text-center mx-auto">Loading...</h1>
       ) : (
-        <div className="grid grid-cols-3 gap-4 mx-auto">
-          {images.map((image) => (
-            <ImageCard key={image.id} image={image} />
-          ))}
+        <div className="flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+            {images.map((image) => (
+              <ImageCard key={image.id} image={image} />
+            ))}
+          </div>
         </div>
       )}
 

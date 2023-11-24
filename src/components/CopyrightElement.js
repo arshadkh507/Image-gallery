@@ -29,7 +29,6 @@ const CopyrightElement = () => {
         >
           Facebook
         </a>
-        {/* Add more social media links as needed */}
       </div>
     </div>
   );
